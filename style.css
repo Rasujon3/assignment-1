@@ -14,6 +14,9 @@ p {
 .orange-highlight {
   color: rgb(255, 0, 157);
 }
+.padding_two_for_all {
+  padding-top: 2%;
+}
 .half-width {
   width: 40%;
   float: left;
@@ -46,14 +49,18 @@ p {
   width: 100%;
 }
 #mission_bg {
-  background-color: rgba(157, 234, 236, 0.966);
+  background-color: #9deaecf6;
+  border-radius: 15px;
 }
 #vission_bg {
-  background-color: #f8861bb7;
+  background-color: #b4f0c16e;
+  border-radius: 15px;
 }
 #goal_bg {
-  background-color: rgb(255, 224, 167);
+  background-color: #815c5c6e;
+  border-radius: 15px;
 }
+
 .app-section {
   width: 40%;
   float: left;
@@ -82,16 +89,9 @@ section {
   height: 80%;
   background-color: white;
 }
-.experience-area {
-  background-image: url("images/exp-bg.png");
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-#apps-dev {
-  border-left: 7px solid;
-  border-image: linear-gradient(180deg, blue, cyan);
-  border-image-slice: 1;
+.mission_img {
+  height: 150px;
+  width: 150px;
 }
 footer {
   background-color: black;
