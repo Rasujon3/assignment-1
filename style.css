@@ -10,6 +10,7 @@ h2 {
 }
 p {
   color: dimGray;
+  text-align: justify;
 }
 .orange-highlight {
   color: rgb(255, 0, 157);
@@ -33,7 +34,6 @@ p {
   color: black;
   padding-left: 25px;
 }
-
 #focus {
   border-left: 4px solid;
   border-image: linear-gradient(180deg, lightSalmon, tomato);
@@ -43,7 +43,8 @@ p {
   width: 25%;
   float: left;
   margin-left: 5%;
-  padding-left: 2%;
+  padding-left: 10px;
+  padding-right: 20px;
 }
 .one-third img {
   width: 100%;
@@ -60,7 +61,6 @@ p {
   background-color: #815c5c6e;
   border-radius: 15px;
 }
-
 .app-section {
   width: 40%;
   float: left;
@@ -70,7 +70,6 @@ p {
 .app-section img {
   width: 50%;
 }
-
 section {
   height: 500px;
   padding-bottom: 150px;
@@ -117,22 +116,4 @@ footer h3 {
 }
 .one-third img {
   width: 100%;
-}
-.client-text-middle {
-  text-align: center;
-}
-.contact-button {
-  text-decoration: none;
-  background-image: linear-gradient(45deg, rgb(255, 122, 122), tomato);
-  padding: 2%;
-  border-radius: 5px;
-  color: white;
-  font-weight: 700;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-}
-.contact-button p {
-  color: white;
-  font-weight: normal;
 }
