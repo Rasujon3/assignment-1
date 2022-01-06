@@ -23,6 +23,13 @@ p {
 .half-width img {
   width: 70%;
 }
+.topborder {
+  border-left: 5px solid #f89898fb;
+  font-size: 200%;
+  line-height: 70%;
+  color: black;
+  padding-left: 25px;
+}
 
 #focus {
   border-left: 4px solid;
@@ -46,6 +53,15 @@ p {
 }
 #goal_bg {
   background-color: rgb(255, 224, 167);
+}
+.app-section {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.app-section img {
+  width: 50%;
 }
 
 section {
@@ -77,9 +93,17 @@ section {
   border-image: linear-gradient(180deg, blue, cyan);
   border-image-slice: 1;
 }
+footer {
+  background-color: black;
+  padding: 2%;
+}
 footer p {
   text-align: center;
   font-size: 12px;
+}
+footer h3 {
+  text-align: center;
+  color: whitesmoke;
 }
 .text-middle {
   text-align: center;
